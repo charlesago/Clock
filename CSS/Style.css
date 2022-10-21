@@ -1,0 +1,63 @@
+body{
+
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    height:400px;
+    width: 400px;
+    border: 10px white solid;
+    border-radius: 50%;
+position: absolute;
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Clock_background.png");
+    background-size: cover;
+}
+
+.centralDot{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 185px;
+    top: 185px;
+    border-radius: 50px;
+
+}
+
+.hoursHand{
+    height: 120px;
+    width: 8px;
+    background-color: rosybrown;
+    position: absolute;
+    left: 196px;
+    bottom: 196px;
+    transform-origin: bottom center;
+    border-radius: 20px;
+
+}
+
+.minutesHand{
+    height: 195px;
+    width: 4px;
+    background-color: deepskyblue;
+    transform-origin: bottom center;
+    position: absolute;
+    left: 198px;
+    bottom: 198px;
+    border-radius: 20px;
+}
+
+.secondsHand{
+    height: 195px;
+    width: 2px;
+    background-color: white;
+    transform-origin: bottom center;
+    position: absolute;
+    left: 199px;
+    bottom: 199px;
+    border-radius: 20px;
+}
